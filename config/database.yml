@@ -26,7 +26,7 @@ production:
     #  это локальный адрес postgresql но он считается внешним к контейнеру. Поэтому в postgresql настраиваем разрешение на подключение внешних запросов
     # host: 192.168.1.153
     host: db
-    port: 6666
+    port: 5432
     database: sirus_production
     username: postgres
     password: 12345678
