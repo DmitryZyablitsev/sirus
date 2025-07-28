@@ -25,7 +25,7 @@ production:
     <<: *default
     #  это локальный адрес postgresql но он считается внешним к контейнеру. Поэтому в postgresql настраиваем разрешение на подключение внешних запросов
     # host: 192.168.1.153
-    host: "localhost"
+    host: db
     port: 6666
     database: sirus_production
     username: postgres

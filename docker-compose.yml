@@ -8,6 +8,7 @@ services:
     environment:
       - RAILS_ENV=production
       - DATABASE_URL=postgres://postgres:12345678@db:6666/sirus_production
+      - SECRET_KEY_BASE=03ccedeaf832d7650c3ea3f00495be3093dac96970735e15c1aed9d18981b2862600ff19f23215f0bd120d49cd94bf4cea690f6c1e2e70b2c79228660b9edef2
     ports:
       - "3000:3000"
     volumes:
